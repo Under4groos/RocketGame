@@ -33,7 +33,7 @@ namespace RocketGame.Model
         public Timer timer;
         public BaseGameObject()
         {
-            timer = new Timer { Interval = 10 };
+            timer = new Timer { Interval = 1 };
             timer.Tick += (o,e)=> { Tick(); };
             timer.Start();
 

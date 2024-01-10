@@ -47,7 +47,7 @@ namespace RocketGame.Model
         public override void Tick()
         {
 
-             
+          
             this["payer"].MoveUpdate();
             
 
